@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>latudu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="colors.css">
+</head>
+<body>
+  <div class="container">
+    <div class="to-do">
+      <h2 id="title">Задачник 📝</h2>
+      <div class="row">
+        <input type="text" id="input-box" placeholder="Введите текст">
+        <button onclick="AddTask()">Добавить</button>
+      </div>
+      <ul id="list-container"></ul>
+    </div>
+  </div>
+
+  <div class="character" id="character">
+    <img src="images/body.png" class="body" alt="body">
+    <img src="images/hand.png" class="hand" alt="hand">
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
